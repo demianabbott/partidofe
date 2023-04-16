@@ -1,0 +1,94 @@
+/* Estilos para el header */
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    background-color: rgba(157,177,62,255);
+    
+  }
+  
+  .navbar-brand {
+    background-color: rgba(157,177,62,255);
+    color: white !important;
+    
+    
+
+  }
+
+  .navbar-brand img {
+    height:45px;
+    }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    margin-right: 20px;
+    
+  }
+  .nav-link {
+    color: white !important;
+  }
+  
+  /* Estilos para el main */
+  main {
+    padding: 40px 0;
+    
+  }
+  .hero {
+    height: 70vh;
+    background-image: url(../base/img/FSU48fsWUAIV4Wg.jpg);
+    object-fit:contain;
+  }
+  
+  /* Estilos para los divs */
+  .row .col-sm-6 {
+    padding: 20px;
+  }
+  
+  /* Estilos para la section */
+  section {
+    padding: 40px 0;
+    background-color: rgba(157,177,62,255);
+  }
+  
+  .card-deck {
+    margin: 0 -15px;
+  }
+  
+  .card {
+    margin: 15px;
+  }
+  
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 20px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: rgba(1,113,185,255);
+    padding: 40px 0;
+  }
+  
+  .social {
+    font-size: 36px;
+  }
+  
+  .social i {
+    color: #555;
+  }
+  
+  .social i:hover {
+    color: #222;
+  }
+  
