@@ -39,7 +39,8 @@ header {
   .hero {
     height: 70vh;
     background-image: url(../base/img/FSU48fsWUAIV4Wg.jpg);
-    object-fit:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   /* Estilos para los divs */
