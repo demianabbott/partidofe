@@ -19,7 +19,7 @@ header {
   }
 
   .navbar-brand img {
-    height:45px;
+    height:5vh;
     }
   
   .navbar-nav .nav-link {
@@ -42,6 +42,17 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .btn-main {
+    background-color: rgba(247,139,51,255);
+    border-radius: 10%;
+    border: solid 1px;
+  }
+
+  /* Estilos para el carousel */
+  .carousel-item, img {
+    height: 100vh;
+    
+  }
   
   /* Estilos para los divs */
   .row .col-sm-6 {
@@ -50,7 +61,7 @@ header {
   
   /* Estilos para la section */
   section {
-    padding: 40px 0;
+    
     background-color: rgba(157,177,62,255);
   }
   
@@ -93,3 +104,10 @@ header {
     color: #222;
   }
   
+  /* Media queries */
+
+  @media only screen and (max-width: 768px) {
+    .hero-left, .hero-right {
+      display: none;
+    }
+  }
