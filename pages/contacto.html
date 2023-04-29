@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactate con nosotros">
+  <title>Partido Fe | Sitio oficial</title>
+  <link rel="shortcut icon" href="../base/img/logo partido fe.png" type="image/x-icon">
+  
+  <!-- Enlace a Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Enlace a Fontawesome -->
+  <script src="https://kit.fontawesome.com/ae12921392.js" crossorigin="anonymous"></script>
+  <!-- Enlace a nuestro archivo de CSS -->
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <!-- Header con Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="../index.html"><img src="../base/img/logo partido fe.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./doctrina.html">Doctrina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./elpartido.html">El Partido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<!--Formulario copiado de proyecto final-->
+<section class=" container section__contacto">
+    <div class="row">
+      <!-- Bootstrap 5 starter form -->
+      <form id="contactForm" action="https://formspree.io/f/mjvdlvzw" method="POST">
+      <!-- Name input -->
+      <div class="mb-3">
+        <label class="form-label" for="name">Nombre y apellido</label>
+        <input class="form-control" id="name" type="text" data-sb-validations="required" />
+        </div>
+    
+        <!-- Email address input -->
+        <div class="mb-3">
+          <label class="form-label" for="emailAddress">Email</label>
+          <input class="form-control" id="emailAddress" type="email" name="email" data-sb-validations="required, email" />
+        </div>
+    
+        <!-- Message input -->
+        <div class="mb-3">
+          <label class="form-label" for="message">Mensaje</label>
+          <textarea class="form-control" id="message" type="text"  data-sb-validations="required"></textarea>
+        </div>
+    
+        <!-- Form submit button -->
+        <div class="d-grid">
+          <button class="btn btn-lg btn-contacto--modificado" type="submit">Enviar</button>
+        </div>
+    </form>
+  </div>
+  </section>
+
+<!-- Footer con tres anchor para las redes sociales y un div para el domicilio -->
+<footer class="text-center text-white footer--modificado">
+    <div class="container pt-4">
+      <div class="mb-4">
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f" style="color: #f18300;" aria-hidden="true"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://ar.linkedin.com/" role="button" data-mdb-ripple-color="dark"><i class="fa-brands fa-instagram" style="color: #f18300;"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/partido__fe" role="button" data-mdb-ripple-color="dark"><i class="fa-brands fa-twitter" style="color: #f18300;"></i></a>
+      </div>
+    </div>
+    <div class="text-center contenedor__footer--modificado p-3">
+      <address>Bouchard 468, piso 1, oficina "B"</address>
+    </div>
+  </footer>
+<!-- Enlace a Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
